@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SivarMotors_Layout.Catalogo"
+             Title="Catálogo">
+    <ScrollView>
+        <StackLayout Margin="20,35,20,20" Spacing="10">
+            <Button x:Name="Toyota" Clicked="Toyota_Clicked" Text="Modelos Toyota"  HeightRequest="100" CornerRadius="10" TextColor="Black" FontSize="27"/>
+            <Button x:Name="Nissan" Clicked="Nissan_Clicked" Text="Modelos Nissan"  HeightRequest="100" CornerRadius="10" TextColor="Black" FontSize="27"/>
+            <Button x:Name="Honda" Clicked="Honda_Clicked" Text="Modelos Honda"  HeightRequest="100" CornerRadius="10" TextColor="Black" FontSize="27"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SivarMotors_Layout.Honda"
+             Title="Modelos de autos Honda">
+    <ScrollView>
+        <StackLayout Margin="20,20,20,20">
+            <Grid BackgroundColor="DarkGrey" RowSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition Height="250"/>
+                </Grid.RowDefinitions>
+                <Label Text="Modelo: Civic
+                             Color: Rojo, Gris, Negro
+                             Precio: $23,750" Grid.Row="1" HorizontalOptions="Center"/>
+                <Image Source="civicsedan.jpg" Grid.Row="2" WidthRequest="300"/>
+                <Label Text="Modelo: Civic Type-R
+                             Color: Gris, Negro
+                             Precio: $44,000" Grid.Row="3" HorizontalOptions="Center"/>
+                <Image Source="civictyper.jpg" Grid.Row="4" WidthRequest="300"/>
+                <Label Text="Modelo: Passport
+                             Color: Gris, Negro, Blanco
+                             Precio: $42,470" Grid.Row="5" HorizontalOptions="Center"/>
+                <Image Source="passport.jpg" Grid.Row="6" WidthRequest="300"/>
+                <Label Text="Modelo: Pilot
+                             Color: Gris, Blanco, Azul
+                             Precio: $95,000" Grid.Row="7" HorizontalOptions="Center"/>
+                <Image Source="pilot.jpg" Grid.Row="8" WidthRequest="300"/>
+                <Label Text="Modelo: Ridgeline
+                             Color: Azul, Gris
+                             Precio: $38,800" Grid.Row="9" HorizontalOptions="Center"/>
+                <Image Source="ridgeline.jpeg" Grid.Row="10" WidthRequest="300"/>
+
+            </Grid>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

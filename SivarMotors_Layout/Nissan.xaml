@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SivarMotors_Layout.Nissan"
+             Title="Nissan">
+    <ScrollView>
+        <StackLayout Margin="20,20,20,20" Spacing="10">
+            <Grid BackgroundColor="DarkGray" Margin="20,20,20,20" RowSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition Height="250"/>
+                </Grid.RowDefinitions>
+                <Label Text="Modelo: Ariya
+                             Color: Gris, Negro
+                             Precio: $43,190" Grid.Row="1" HorizontalOptions="Center"/>
+                <Image Source="ariya.jpeg" Grid.Row="2" WidthRequest="300"/>
+                <Label Text="Modelo: Juke
+                             Color: Blanco, Negro, Gris
+                             Precio: $40,001" Grid.Row="3" HorizontalOptions="Center"/>
+                <Image Source="juke.jpeg" Grid.Row="4" WidthRequest="300"/>
+                <Label Text="Modelo: Leaf
+                             Color: Blanco, Azul, Negro
+                             Precio: $29,235" Grid.Row="5" HorizontalOptions="Center"/>
+                <Image Source="leaf.jpg" Grid.Row="6" WidthRequest="300"/>
+                <Label Text="Modelo: Micra
+                             Color: Rojo, Azul, Blanco
+                             Precio: $9,998" Grid.Row="7" HorizontalOptions="Center"/>
+                <Image Source="micra.jpg" Grid.Row="8" WidthRequest="300"/>
+                <Label Text="Modelo: Sentra
+                             Color: Gris, Negro, Naranja
+                             Precio: $25,560" Grid.Row="9" HorizontalOptions="Center"/>
+                <Image Source="sentra.jpg" Grid.Row="10" WidthRequest="300"/>
+                <Label Text="Modelo: Versa
+                             Color: Gris, Blanco
+                             Precio: $16,725" Grid.Row="11" HorizontalOptions="Center"/>
+                <Image Source="versa.jpg" Grid.Row="12" WidthRequest="300"/>
+                <Label Text="Modelo: X-trail
+                             Color: Gris, Negro
+                             Precio: $25,650" Grid.Row="13" HorizontalOptions="Center"/>
+                <Image Source="xtrail.jpg" Grid.Row="14" WidthRequest="300"/>
+                <Label Text="Modelo: Qashqai
+                             Color: Gris, Negro, Azul
+                             Precio: $43,190" Grid.Row="15" HorizontalOptions="Center"/>
+                <Image Source="quashqai.jpg" Grid.Row="16" WidthRequest="300"/>
+            </Grid>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

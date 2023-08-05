@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SivarMotors_Layout.LoginApp"
+             Title="Acceder...">
+    <ScrollView>
+        <StackLayout Margin="20,35,20,20" Spacing="10">
+            <Grid RowSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Entry x:Name="Nombre" Placeholder="Ingrese su nombre" Grid.Row="0"/>
+                <Entry x:Name="Email" Placeholder="Ingrese su email" Keyboard="Email" Grid.Row="1"/>
+                <Entry x:Name="Contraseña" Placeholder="Ingrese su contraseña" IsPassword="True" Grid.Row="2"/>
+                <Button x:Name="Acceder" Text="Acceder" Clicked="Acceder_Clicked" HorizontalOptions="End" Grid.Row="3"/>
+            </Grid>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SivarMotors_Layout.Toyota"
+             Title="Modelos de Toyota">
+    <ScrollView>
+        <StackLayout Margin="20,20,20,20" Spacing="10" BackgroundColor="DarkGrey">
+
+            <Grid RowSpacing="10" Margin="20,20,20,20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/> <!--Modelo,0-->
+                    <RowDefinition Height="220"/> <!--Año,1--><!--Imagen,1-->
+                    <RowDefinition Height="50"/> <!--Modelo,2-->
+                    <RowDefinition Height="235"/> <!--Año,3--><!--Imagen,3-->
+                    <RowDefinition Height="50"/> <!--Modelo,4-->
+                    <RowDefinition Height="250"/> <!--Año,5--><!--Imagen,5-->
+                    <RowDefinition Height="50"/> <!--Modelo,6-->
+                    <RowDefinition Height="210"/> <!--Año,7--><!--Imagen,7-->
+                    <RowDefinition Height="50"/> <!--Modelo,8-->
+                    <RowDefinition Height="210"/> <!--Año,9--><!--Imagen,9-->
+                    <RowDefinition Height="50"/> <!--Modelo,10-->
+                    <RowDefinition Height="230"/> <!--Año,11--><!--Imagen,11-->
+                    <RowDefinition Height="50"/> <!--Modelo,12-->
+                    <RowDefinition Height="210"/> <!--Año,13--><!--Imagen,13-->
+                    <RowDefinition Height="50"/> <!--Modelo,14-->
+                    <RowDefinition Height="210"/><!--Año,15--><!--Imagen,15-->
+                    <RowDefinition Height="50"/><!--Modelo,16-->
+                    <RowDefinition Height="270"/><!--Año,17--><!--Imagen,17-->
+                    <RowDefinition Height="50"/><!--Modelo,18-->
+                    <RowDefinition Height="210"/><!--Año,19--><!--Imagen,19-->
+                    <RowDefinition Height="50"/><!--Modelo,20-->
+                    <RowDefinition Height="210"/><!--Año,21--><!--Imagen,21-->
+                    <RowDefinition Height="50"/><!--Modelo,22-->
+                    <RowDefinition Height="210"/><!--Año,23--><!--Imagen,23-->
+                    <RowDefinition Height="50"/><!--Modelo,24-->
+                    <RowDefinition Height="210"/><!--Año,25--><!--Imagen,25-->
+                </Grid.RowDefinitions>
+
+                <Label Text="Queremos ofrecer al cliente la sensación de calidez y bienvenida al ingresar y adquirir nuestros productos.
+                                                              Nuestros productos son de alta calidad y con la certificación de tener 0 millas." FontSize="Large" Grid.Row="1" HorizontalOptions="Center"/>
+                <Label Text="Modelo: Aygo X
+                             Color: Rojo, Negro, Blanco
+                             Precio: $18,000" Grid.Row="2" HorizontalOptions="Center" />
+                <Label Text="Año: 2022" Grid.Row="3" HorizontalOptions="Center"/>
+                <Image Source="aygox.jpg" WidthRequest="300" Grid.Row="3"/>
+                <Label Text="Modelo: BZ4X
+                             Color: Negro, Gris
+                             Precio: $42,000" Grid.Row="4" HorizontalOptions="Center" />
+                <Label Text="Año: 2022" Grid.Row="5" HorizontalOptions="Center"/>
+                <Image Source="bz4x.jpg" WidthRequest="300" Grid.Row="5"/>
+                <Label Text="Modelo: Camry Hev
+                             Color: Rojo, Azul
+                             Precio: $26,420" Grid.Row="6" HorizontalOptions="Center" />
+                <Label Text="Año: 2022" Grid.Row="7" HorizontalOptions="Center"/>
+                <Image Source="camryhev2022.jpg" WidthRequest="300" Grid.Row="7"/>
+                <Label Text="Modelo: Corolla
+                             Color: Rojo, Blanco, Negro
+                             Precio: $31,990" Grid.Row="8" HorizontalOptions="Center" />
+                <Label Text="Año: 2022" Grid.Row="9" HorizontalOptions="Center"/>
+                <Image Source="corolla2020.jpg" WidthRequest="300" Grid.Row="9" />
+                <Label Text="Modelo: Cross
+                             Color: Negro, Blanco,Gris
+                             Precio: $32,000" Grid.Row="10" HorizontalOptions="Center" />
+                <Label Text="Año: 2022" Grid.Row="11" HorizontalOptions="Center"/>
+                <Image Source="cross2020.jpg" WidthRequest="300" Grid.Row="11"/>
+                <Label Text="Modelo: Hilux
+                             Color: Rojo, Gris, Blanco
+                             Precio: $38,000" Grid.Row="12" HorizontalOptions="Center" />
+                <Label Text="Año: 2022" Grid.Row="13" HorizontalOptions="Center"/>
+                <Image Source="hilux2022.jpg" WidthRequest="300" Grid.Row="13"/>
+                <Label Text="Modelo: Prius
+                             Color: Negro, Blanco, Azul
+                             Precio: $34,000" Grid.Row="14" HorizontalOptions="Center" />
+                <Label Text="Año: 2022" Grid.Row="15" HorizontalOptions="Center"/>
+                <Image Source="prius2022.jpg" WidthRequest="300" Grid.Row="15"/>
+                <Label Text="Modelo: RAV4
+                             Color: Dorado, Rojo, Azul
+                             Precio: $28,000" Grid.Row="16" HorizontalOptions="Center" />
+                <Label Text="Año: 2022" Grid.Row="17" HorizontalOptions="Center"/>
+                <Image Source="rav42022.jpg" WidthRequest="300" Grid.Row="17"/>
+                <Label Text="Modelo: Sequioa Hev
+                             Color: Rojo, Gris, Blanco
+                             Precio: $90,000" Grid.Row="18" HorizontalOptions="Center" />
+                <Label Text="Año: 2022" Grid.Row="19" HorizontalOptions="Center"/>
+                <Image Source="sequoiahev2022.jpg" WidthRequest="300" Grid.Row="19"/>
+                <Label Text="Modelo: Supra
+                             Color: Negro, Blanco, Gris
+                             Precio: $85,000" Grid.Row="20" HorizontalOptions="Center" />
+                <Label Text="Año: 2022" Grid.Row="21" HorizontalOptions="Center"/>
+                <Image Source="supra2021.jpg" WidthRequest="300" Grid.Row="21"/>
+                <Label Text="Modelo: Tacoma
+                             Color: Azul, Dorado, Gris
+                             Precio: $16,000" Grid.Row="22" HorizontalOptions="Center" />
+                <Label Text="Año: 2022" Grid.Row="23" HorizontalOptions="Center"/>
+                <Image Source="tacoma2022.jpg" WidthRequest="300" Grid.Row="23"/>
+                <Label Text="Modelo: Yaris
+                             Color: Rojo, Gris, Celeste
+                             Precio: $17,750" Grid.Row="24" HorizontalOptions="Center" />
+                <Label Text="Año: 2022" Grid.Row="25" HorizontalOptions="Center"/>
+                <Image Source="yaris2021.jpg" WidthRequest="300" Grid.Row="25"/>
+            </Grid>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
